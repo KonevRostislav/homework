@@ -1,0 +1,189 @@
+/* Настройка тэгов */
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    background-color: #EEEEEE;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin-left: 50px;
+    margin-top: 0;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+/* ----- */
+/* Настройка контейнера */
+
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/* ----- */
+/* Настройка блоков шапки */
+.header{
+    background-color: #007765;
+}
+.header-block{
+    height: 84px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.nav{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    padding-right: 24px;
+    color: white;
+}
+.nav:last-child{
+    padding-right: 0;
+}
+.nav:hover{
+    color: #8bc6be;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+/* ------ */
+/* Настройка блоков промо */
+.promo{
+    height: 403px;
+    background-image:url(../img/promo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}   
+.promo-header{
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 84px;  
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+}
+/* ------ */
+/* Настройка блока Problem */
+.problem-header{
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    padding-top: 48px;
+    color: rgba(0, 119, 101, 1);
+}
+.problem-title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 16px;
+    padding-bottom: 42px;
+}
+/* -- */
+/* Начало блока Hero */
+.hero{
+    height: 483px;
+    background-image:url(../img/image.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.hero-title{
+    width: 893px;
+    height: 228px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: white;
+    padding-top: 128px;
+    padding-bottom: 127px;
+    margin: 0 auto;
+}
+/* ----- */
+/* Настройка блока coin */
+.coin{
+    background-color: white;
+}
+.coin-intro{
+    display: flex;
+    align-items: center;
+}
+.coin-title{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    padding-top: 16px;
+    margin-bottom: 40;
+}
+.coin-img{
+    width: 115px;
+    height: 115px;
+}
+/* ------*/
+/* Настройки блока TEAM */
+.team-members{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+.team-dev{
+    width: 350px;
+    height: 283px;
+    text-align: center;
+    flex-basis: 30%;
+}
+.dev-name{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #007765;
+}
+.dev-cval{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+/* ----- */
+/* Настройка блока footer */
+
+/* ----- */
+.footer {
+    background-color: black;
+    height: 176px;
+}
+.footer-block {
+    height: 64px;
+    width: 540px;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 62px;
+}
+.footer-text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
